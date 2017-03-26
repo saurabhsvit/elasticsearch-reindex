@@ -216,7 +216,6 @@ if (cluster.isMaster) {
 
   var scan_options = {
         index       : from.index,
-        type        : from.type,
         search_type : 'scan',
         scroll      : cli.scroll,
         size        : cli.query_size,
